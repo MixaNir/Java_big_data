@@ -52,8 +52,5 @@ public class Cinema {
             this.cost = cost;
         }
     }
-
     public Cinema(){}
-
-
 }

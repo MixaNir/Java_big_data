@@ -51,5 +51,4 @@ public class Car {
                 ", price: " + Integer.toString(this.price) +
                 ", register sign: " + this.label;
     }
-
 }
