@@ -5,8 +5,7 @@ import java.util.InputMismatchException;
 
 public class Main {
 
-    public static void main(String[] args) { //Variant
-        // write your code here
+    public static void main(String[] args) { //Variant 10
         Scanner ob = new Scanner(System.in);
         Cinema cinema = new Cinema();
 

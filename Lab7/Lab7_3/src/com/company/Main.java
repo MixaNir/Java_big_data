@@ -6,7 +6,6 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) {//Variant 3
-	// write your code here
         try {
             File file = new File("C:\\Users\\Mikhail\\IdeaProjects\\Lab7_3\\src\\com\\company\\test.txt");
             FileReader fr = new FileReader(file);
@@ -22,7 +21,6 @@ public class Main {
                     buf.delete(str.indexOf("."), str.indexOf(".")+1);
                     check.put(buf.toString(), 0);
                 }
-                //System.out.println(check);
             }
             line = reader.readLine();
             String[] buf_str;

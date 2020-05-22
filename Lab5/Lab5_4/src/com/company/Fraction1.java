@@ -108,4 +108,3 @@ private class Fraction {
         return frac;
     }
 }
-E

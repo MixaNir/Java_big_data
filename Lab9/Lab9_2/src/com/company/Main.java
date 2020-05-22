@@ -10,9 +10,7 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) { //Variant 4
-	// write your code here
         String[] str = new String[]{"ab", "jb", "fj", "tdghj", "of", "hk", "ih"};
-        System.out.println("Even numbers: ");
         Map<Character, Character> map = Stream.of(str)
                 .collect(Collectors.toMap(
                 i -> i.charAt(0),

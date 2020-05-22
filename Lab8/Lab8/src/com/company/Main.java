@@ -1,6 +1,5 @@
 package com.company;
 class LestStep extends Thread {
-
     public void run(){
         for (int i = 0; i < 10; i++){
             System.out.printf("LEFT\n");
@@ -14,7 +13,6 @@ class LestStep extends Thread {
     }
 }
 class RightStep extends Thread {
-
     public void run(){
         try{
             Thread.sleep(500);
@@ -31,7 +29,6 @@ class RightStep extends Thread {
                 System.out.println("Thread has been interrupted");
             }
         }
-
     }
 }
 public class Main {

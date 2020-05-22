@@ -15,7 +15,7 @@ public class Main {
         String inser = "KEK";
 
         StringBuffer str = new StringBuffer(newReader.readLine());
-        while (str.toString()!="end"){
+        while (!str.toString().equals("end")){
             if(str.length() >= k){
                 str.insert(k, inser);
                 System.out.println(str);
@@ -24,6 +24,5 @@ public class Main {
             }
             str = new StringBuffer(newReader.readLine());
         }
-
     }
 }

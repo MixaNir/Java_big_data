@@ -20,7 +20,6 @@ public class Main { //Variant 5
         polynom2 = new int[deg+1]; //[deg0, deg1, deg2,...]
         System.out.println("Input polynomial 1 coefficients through ' ': ");
         String[] plnm1 = newReader.readLine().split(" ");;
-        //String plnm1 = scan.nextLine();
         int i = deg;
         for (String line: plnm1) {
             polynom1[i] = Integer.parseInt(line);
